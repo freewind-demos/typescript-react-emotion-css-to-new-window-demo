@@ -1,8 +1,9 @@
-TypeScript React Emotion Css Demo
+TypeScript React Emotion Css to New Window Demo
 =================================
 
-可以使用Emotion方便的定义复杂的css，还可以动态定义。
-当某个emotion接收到了新的参数，会自动生成一个新的className
+需要使用@emotion/cache来配置新的container以及context，以及@emotion/react来使用context
+
+代码来自 <https://codesandbox.io/s/silly-burnell-c4ncs>
 
 ```
 npm install

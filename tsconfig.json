@@ -3,10 +3,11 @@
     "strict": true,
     "target": "es6",
     "module": "commonjs",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "jsxImportSource": "@emotion/react"
   },
   "exclude": [
     "node_modules"
